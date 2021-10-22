@@ -3,24 +3,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: darkslateblue;
 }
   
 .gameboy{
   height: 800px;
-  width: 650px;
+  width: 600px;
   background-color: #a8a8a8;
-  background-image: linear-gradient(315deg, #a8a8a8 0%, #f5f7fa 74%);
+  background-image: linear-gradient(315deg, #a8a8a8 0%, #bebebe 74%);
   border: 2px gray;
   border-radius: 5%;
 }
 
 .gameboyinner{
   height: 790px;
-  width: 630px;
+  width: 580px;
   background-color: #ebebeb;
   background-image: linear-gradient(315deg, #ebebeb 0%, #d7e1ec 74%);
   border-radius: 5%;
   border: gray;
+  box-shadow: 8px 8px #a0a0a0;
   margin-top: -7px;
   margin-left: -5px;
 }
@@ -213,8 +215,10 @@ body {
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  background: red;
+  background: rgb(180, 18, 18);
   font-size: 2rem;
+  font-weight: 800;
+  color: #ebebeb;
 }
 
 
